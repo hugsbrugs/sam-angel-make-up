@@ -19,7 +19,7 @@ $(document).ready(function(){
 
         $('header.intro').fadeTo('slow', 0.3, function()
         {
-            $(this).css('background-image', 'url(../img/background/'+image+')');
+            $(this).css('background-image', 'url(img/background/'+image+')');
         }).fadeTo('slow', 1);
 
     }, 3000);
