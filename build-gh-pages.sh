@@ -2,7 +2,7 @@
 
 git status
 git add -A
-git commit
+git commit -m "modif text + tabs for carousels"
 git push origin master
 git checkout -b gh-pages
 git checkout gh-pages

@@ -14,7 +14,7 @@ $(document).ready(function(){
         if(index>=images.length)
             index = 0;
         image = images[index];
-        console.log('image ' + image);
+        //console.log('image ' + image);
         // $('header.intro').css('background-image', 'url(../img/background/'+image+')');
 
         $('header.intro').fadeTo('slow', 0.3, function()
