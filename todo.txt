@@ -1,21 +1,13 @@
-
-Ajouter facebook
-
-Lien thème origine
-https://blackrockdigital.github.io/startbootstrap-grayscale/
-
 Moi :
-Meilleures présentation de sliders
-Optimiser poids photos
-Formulaire contact / RDV
-
-relier le nom de domaine
-https://help.github.com/articles/user-organization-and-project-pages/
-https://help.github.com/articles/using-a-custom-domain-with-github-pages/
-https://help.github.com/articles/setting-up-an-apex-domain/
+Ajouter facebook
+Optimiser poids photos : .htaccess 
+Minifier assets
 
 
 Toi :
 Textes pour commenter les sliders : les techniques utilisées, les produits utilisés, le temps de réalisation, un mot sur l'occasion de l'évênement
 
 Images épilations
+
+Lien thème origine
+https://blackrockdigital.github.io/startbootstrap-grayscale/
