@@ -135,6 +135,7 @@
 
     <?php include __DIR__ . '/html/contact.php'; ?>
     <?php include __DIR__ . '/html/footer.php'; ?>
+    <?php include_once __DIR__ . '/php/analyticstracking.php' ?>
 
 </body>
 </html>
