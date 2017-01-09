@@ -1,13 +1,12 @@
-Moi :
-Ajouter facebook
+http://www.sam-angel-make-up.fr/
+https://hugsbrugs.github.io/sam-angel-make-up
+
 Optimiser poids photos : .htaccess 
 Minifier assets
+Référencement
 
-
-Toi :
-Textes pour commenter les sliders : les techniques utilisées, les produits utilisés, le temps de réalisation, un mot sur l'occasion de l'évênement
-
-Images épilations
 
 Lien thème origine
 https://blackrockdigital.github.io/startbootstrap-grayscale/
+
+Minify

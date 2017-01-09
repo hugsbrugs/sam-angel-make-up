@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Soins Esthétiques à Sénas : maquillage, épilation, anglerie, sions du visage. Diplômée de maquillage artistique. Epilation à domicile.">
-    <meta name="author" content="">
+    <meta name="author" content="Hugo Maugey">
 
     <title>Sam Angel Make Up : Maquillage Epillation Onglerie à Sénas</title>
 
@@ -51,7 +51,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2 class="text-center">Présentation</h2>
-                <p class="text-justify">Esthéticienne diplômée de Maquillage artistique depuis 1998, et titulaire d’un diplôme de prothésiste ongulaire depuis 2014. J'aime le contact humain, j’apprécie de prendre le temps nécessaire avec mes clientes pour les guider au mieux dans leurs objectifs beauté. Je pars du principe qu'il faut connaître au mieux sa cliente pour que les soins soient conformes à ses attentes. Je pratique les soins chez mes clientes, mais je peux aussi vous recevoir à mon domicile où j'ai aménager une pièce afin que celles d’entre vous qui veulent changer d’environnement puissent se détendre pleinement. Je pratique mes soins sur une clientèle féminine et masculine.</p>
+                <p class="text-justify">Esthéticienne diplômée de Maquillage artistique depuis 1998, et titulaire d’un diplôme de prothésiste ongulaire depuis 2014. J'aime le contact humain, j’apprécie de prendre le temps nécessaire avec mes clientes pour les guider au mieux dans leurs objectifs beauté. Je pars du principe qu'il faut connaître au mieux sa cliente pour que les soins soient conformes à ses attentes. Je pratique les soins chez mes clientes, mais je peux aussi vous recevoir à mon domicile où j'ai aménagé une pièce afin que celles d’entre vous qui veulent changer d’environnement puissent se détendre pleinement. Je pratique mes soins sur une clientèle féminine et masculine.</p>
 
                 <h2 class="text-center">Mes formations</h2>
             </div>

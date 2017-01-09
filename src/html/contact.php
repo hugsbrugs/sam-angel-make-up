@@ -16,7 +16,8 @@ if (isset($_POST["submit"]))
 	$message = $_POST['message'];
 	$human = intval($_POST['human']);
 	$from = 'Sam Angel Make Up : Formulaire de Contact'; 
-	$to = 'hugo.maugey@gmail.com'; 
+	// $to = 'hugo.maugey@gmail.com';
+	$to = 'sam.angel.make.up@gmail.com';
 	$subject = 'Message from Sam Angel Make Up';
 	
 	$body = "From: $name\n E-Mail: $email\n Message:\n $message";

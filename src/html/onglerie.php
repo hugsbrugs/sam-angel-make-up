@@ -55,10 +55,10 @@
                 Aussi épais qu'un vernis standard, il tient beaucoup plus longtemps "finie la corvée de la pose de vernis tous les deux jours !"
                 C'est un bon compromis entre un vernis standard et une pose au gel.</p>
 
-                <h3 class="gold">Pose au gel sur ongles naturel</h3>
+                <h3 class="gold">Pose au gel sur ongles naturels</h3>
                 
                 <p>Tenue trois à quatre semaines.
-                Gainage de l'ongle, idéal pour les ongles plat ou très peu bombés.
+                Gainage de l'ongle, idéal pour les ongles plats ou très peu bombés.
                 Une pause brillante durablement, possibilité de faire des motifs et incruster des strass. Une longue période sans avoir à se soucier de ses ongles.</p>
 
 
