@@ -1,0 +1,72 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/wc/robots.html
+#
+# For syntax checking, see:
+# http://www.sxw.org.uk/computing/robots/check.html
+
+User-agent: *
+#Crawl-delay: 10
+
+# Disallow Paths (clean URLs)
+Disallow: /deps/
+Disallow: /php/
+
+# Disallow Files
+Disallow: /CHANGELOG.txt
+
+
+########## START KILLDUPLICATE ##########
+# exclude nerdydata.com
+User-agent: NerdyBot
+Disallow: /
+# exclude Majestic SEO
+User-agent: MJ12bot
+Disallow: /
+# exclude Open Site Explorer
+User-agent: rogerbot
+Disallow: /
+# exclude Ahrefs.com
+user-agent: AhrefsBot
+Disallow: /
+# exclude domaintools.com
+User-agent: SurveyBot
+Disallow: /
+# exclude Linkody
+User-agent: Linkody
+Disallow: /
+# exclude
+User-agent: Updownerbot
+Disallow: /
+# exclude
+User-agent: archive-fr.com
+Disallow: /
+# exclude
+User-agent: BLEXBot
+Disallow: /
+# exclude
+User-agent: webmeupbot
+Disallow: /
+# exclude
+User-agent: spbot
+Disallow: /
+# exclude
+User-agent: NerdyBot
+Disallow: /
+# exclude
+User-agent: URLmetriques
+Disallow: /
+########## END KILLDUPLICATE ##########
+
+Sitemap: https://sam-angel-make-up.fr/sitemap.xml

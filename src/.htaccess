@@ -1,24 +1,40 @@
-RewriteEngine On
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access 1 year"
+    ExpiresByType image/jpeg "access 1 year"
+    ExpiresByType image/gif "access 1 year"
+    ExpiresByType image/png "access 1 year"
+    ExpiresByType text/css "access 1 month"
+    ExpiresByType text/html "access 1 day"
+    ExpiresByType application/pdf "access 1 month"
+    ExpiresByType text/x-javascript "access 1 month"
+    ExpiresByType application/x-shockwave-flash "access 1 month"
+    ExpiresByType image/x-icon "access 1 year"
+    ExpiresDefault "access 1 month"
+</IfModule>
 
-#Redirection http:// vers http://www pour éviter le duplicate content
-# LOCAL
-RewriteCond %{HTTP_HOST} ^www.sam-angel-make-up.test$
-RewriteRule ^(.*)   http://sam-angel-make-up.test/$1  [QSA,L,R=301] 
+<ifModule mod_rewrite.c>
+	RewriteEngine On
 
-# 401 : Authorization Required :
-ErrorDocument 401 "Authorisation nécessaire pour accéder à cette page. Contactez l'administateur de ce site internet."
-# 403 : accès refusé :
-ErrorDocument 403 http://sam-angel-make-up.test/Acces-Refuse
-# 404 : Not Found !
-ErrorDocument 404 http://sam-angel-make-up.test/Page-Introuvable
-# 500 : Internal Server Error
-ErrorDocument 500 "Erreur interne du serveur, veuillez réessayer plus tard ..."
+	## REDIRECT ALL WWW TO NON-WWW
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+	RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+	# 401 : Authorization Required :
+	ErrorDocument 401 "Authorisation nécessaire pour accéder à cette page. Contactez l'administateur de ce site internet."
+	# 403 : accès refusé :
+	ErrorDocument 403 http://sam-angel-make-up.test/Acces-Refuse
+	# 404 : Not Found !
+	ErrorDocument 404 http://sam-angel-make-up.test/Page-Introuvable
+	# 500 : Internal Server Error
+	ErrorDocument 500 "Erreur interne du serveur, veuillez réessayer plus tard ..."
 
 
-RewriteRule ^maquillage$ html/maquillage.php [L,QSA]
-RewriteRule ^onglerie$ html/onglerie.php [L,QSA]
-RewriteRule ^soins-du-visage$ html/soins-du-visage.php [L,QSA]
-RewriteRule ^epilation$ html/epilation.php [L,QSA]
+	RewriteRule ^maquillage$ html/maquillage.php [L,QSA]
+	RewriteRule ^onglerie$ html/onglerie.php [L,QSA]
+	RewriteRule ^soins-du-visage$ html/soins-du-visage.php [L,QSA]
+	RewriteRule ^epilation$ html/epilation.php [L,QSA]
 
-RewriteRule ^Acces-Refuse$ html/error.php [L,QSA]
-RewriteRule ^Page-Introuvable$ html/error.php [L,QSA]
+	RewriteRule ^Acces-Refuse$ html/error.php [L,QSA]
+	RewriteRule ^Page-Introuvable$ html/error.php [L,QSA]
+</ifModule>

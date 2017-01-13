@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Soins Esthétiques à Sénas : maquillage, épilation, anglerie, sions du visage. Diplômée de maquillage artistique. Epilation à domicile.">
+    <meta name="description" content="Soins Esthétiques à Sénas : maquillage, épilation, onglerie, soins du visage. Diplômée de maquillage artistique. Epilation à domicile.">
     <meta name="author" content="Hugo Maugey">
 
     <title>Sam Angel Make Up : Maquillage Epillation Onglerie à Sénas</title>
