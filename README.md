@@ -2,6 +2,8 @@
 
 Visit [www.sam-angel-make-up.fr](http://www.sam-angel-make-up.fr/) Website
 
+![Sam Angel Make Up Screenshot](/sam-angel-make-up-screenshot.jpg?raw=true "Website Screenshot")
+
 Based on [Start Bootstrap](http://startbootstrap.com/) - [Grayscale Template](http://startbootstrap.com/template-overviews/grayscale/)
 
 You can use this repository as a start to build your own website by customizing it.
