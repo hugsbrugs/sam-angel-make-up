@@ -1,7 +1,9 @@
-# [Sam Angel Make Up](http://www.sam-angel-make-up.fr/) Website
+# Sam Angel Make Up Website
 
-based on 
+[Visit Website](http://www.sam-angel-make-up.fr/)
 
-[Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+Based on [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) Grayscale Template
+
+You can use this repository as a start to build your own website by customizing it.
 
 Website can be hosted on Github Pages by using build-gh-pages.sh script
