@@ -20,12 +20,7 @@ if (isset($_POST["submit"]))
 	$to = 'sam.angel.make.up@gmail.com';
 	$subject = 'Message from Sam Angel Make Up';
 	
-	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
-
-	// Check if name has been entered
-	// if (!$_POST['name']) {
-	// 	$errName = 'Please enter your name';
-	// }
+	$body = "From: $email\n E-Mail: $email\n Message:\n $message";
 	
 	// Check if email has been entered and is valid
 	if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
